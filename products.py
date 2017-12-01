@@ -13,5 +13,5 @@ for p in products:
 
 with open('products.csv', 'w') as f:
 	for p in products:
-		f.write(p[0] + ',' + p[1] + '\n')
+		f.writRe(p[0] + ',' + p[1] + '\n')
 
